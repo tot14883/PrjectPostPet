@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+         <ImageView
+            android:layout_marginTop="25dp"
+            android:id="@+id/image_pet"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+          <TextView
+              android:id="@+id/name_pet"
+              android:layout_marginTop="15dp"
+              android:text="Name"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/des_pet"
+              android:layout_marginTop="15dp"
+              android:text="des"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/uni_pet"
+              android:layout_marginTop="15dp"
+              android:text="uni"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/care_pet"
+              android:layout_marginTop="15dp"
+              android:text="care"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/feel_pet"
+              android:layout_marginTop="15dp"
+              android:text="feel"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/history_pet"
+              android:layout_marginTop="15dp"
+              android:text="history"
+              android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+         <Button
+             android:id="@+id/edit_btn"
+             android:background="@color/colorPrimary"
+             android:textSize="25sp"
+             android:text="แก้ไข"
+             android:layout_marginTop="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="50dp"/>
+       </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
